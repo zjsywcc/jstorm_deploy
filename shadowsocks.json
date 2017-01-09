@@ -1,0 +1,8 @@
+{
+"server":"jp.txsjs.top",
+"server_port":12132,
+"local_port":8585,
+"password":"a852456",
+"timeout":600,
+"method":"aes-256-cfb"
+}
