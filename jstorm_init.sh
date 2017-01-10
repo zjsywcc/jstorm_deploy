@@ -26,3 +26,5 @@ echo '- 6803' >> /home/mengchenyun/jstorm-2.1.1/conf/storm.yaml
 
 mkdir ~/.jstorm
 cp -f /home/mengchenyun/jstorm-2.1.1/conf/storm.yaml ~/.jstorm
+
+echo 'alias jps="/usr/lib/jvm/jdk1.8.0_111/bin/jps"' >> ~/.bashrc
