@@ -8,8 +8,8 @@ ip1=$1
 ip2=$2
 ip3=$3
 unzip -o jstorm-2.1.1 -d /home/mengchenyun/
-echo 'export JSTORM_HOME=/home/mengchenyun/jstorm-2.1.1' >> /etc/profile
-echo 'PATH=$PATH:$JSTORM_HOME/bin' >> /etc/profile
+echo 'export JSTORM_HOME=/home/mengchenyun/jstorm-2.1.1' >> ~/.bashrc
+echo 'PATH=$PATH:$JSTORM_HOME/bin' >> ~/.bashrc
 cp -f /home/mengchenyun/jstorm-2.1.1/conf/storm.yaml /home/mengchenyun/jstorm-2.1.1/conf/storm_bak.yaml
 echo 'storm.zookeeper.servers:' > /home/mengchenyun/jstorm-2.1.1/conf/storm.yaml
 echo "- \"$ip1\"" >> /home/mengchenyun/jstorm-2.1.1/conf/storm.yaml
