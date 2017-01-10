@@ -3,7 +3,7 @@
 # author： mengchenyun
 # date  :  2017-01-09
 
-wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u111-b14/jdk-8u111-linux-x64.tar.gz"
+#wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u111-b14/jdk-8u111-linux-x64.tar.gz"
 sudo mkdir /usr/lib/jvm
 sudo tar -zxvf jdk-8u111-linux-x64.tar.gz -C /usr/lib/jvm
 echo "#set oracle jdk environment" >> ~/.bashrc
